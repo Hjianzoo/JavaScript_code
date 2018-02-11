@@ -1,0 +1,57 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+body{
+	background-color:rgb(56,127,245);
+	position:relative;
+}
+.bide{
+	display:none;
+}
+.show{
+	display:block;
+}
+.login{
+	box-sizing:border-box;
+	margin:170px 40px;
+	height:220px;
+	background-color:rgba(255,255,255,.9);
+	border-radius:5px;
+}
+.usercell{
+	box-sizing:border-box;
+	margin:0 30px;
+	padding-top:40px;
+}
+.pwdcell{
+	box-sizing:border-box;
+	margin:0 30px;
+}
+.logincell{
+	box-sizing:border-box;
+	margin:0 30px;
+}
+.login p{
+  width: 20%;
+  float: left;
+  line-height: 29px;
+}
+.login input{
+  width: 73%;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  line-height: 25px;
+  /* float: left; */
+  padding: 2px;
+}
+#login_in{
+	width:100%;
+	line-height:35px;
+	font-size:16px;
+	background-color:rgb(36,198,114);
+	color:#fff;
+	border:none;
+	border-radius:3px;
+	text-align:center;
+}
