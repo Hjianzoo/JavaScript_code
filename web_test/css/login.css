@@ -6,7 +6,7 @@ body{
 	background-color:rgb(56,127,245);
 	position:relative;
 }
-.bide{
+.hide{
 	display:none;
 }
 .show{
@@ -54,4 +54,36 @@ body{
 	border:none;
 	border-radius:3px;
 	text-align:center;
+}
+.error{
+	position:absolute;
+	top:50%;
+	margin-top:-55px;
+	left:80px;
+	right:80;
+	height:110px;
+	background-color:#fff;
+	text-align:center;
+	border-radius:5px;
+	z-index:10;
+}
+.error p{
+	line-height:60px;
+}
+.error button{
+	width:60%;
+	line-height:30px;
+	font-size:14px;
+	background-color:rgb(214,5,50);
+	color:#fff;
+	border:none;
+}
+.mask{
+	position:fixed;
+	background-color:rgba(0,0,0,.5);
+	top:0;
+	bottom:0;
+	left:0;
+	right:0;
+	z-index:5;
 }
